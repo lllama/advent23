@@ -1,0 +1,53 @@
+#content {
+        margin: 4;
+        margin-left: 10;
+        margin-right: 10;
+        layout: grid;
+        grid-columns: 1fr 1fr;
+        grid-rows: 3fr 3fr 1fr;
+        grid-size: 2 3;
+}
+
+
+.game_count {
+        color: red;
+        border: solid;
+        padding: 1;
+        padding-right: 18;
+        width: 50;
+}
+#show_counts {
+        color: red;
+        border: solid;
+        padding: 1;
+        padding-right: 20;
+        width: 50;
+        row-span: 2;
+}
+#red_count {
+        color: red;
+}
+#green_count {
+        color: green;
+}
+#blue_count {
+        color: blue;
+}
+#sparks {
+        column-span: 2;
+}
+
+#red-spark > .sparkline--min-color { color: pink;}
+#red-spark > .sparkline--max-color { color: red;}
+#blue-spark > .sparkline--min-color { color: violet;}
+#blue-spark > .sparkline--max-color { color: blue;}
+#green-spark > .sparkline--min-color { color: lightgreen;}
+#green-spark > .sparkline--max-color { color: green;}
+
+Toast {
+        width: 20;
+}
+
+Digits {
+        text-align: right;
+}
