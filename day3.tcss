@@ -1,0 +1,19 @@
+#contents {
+        layout: grid;
+        grid-size: 1 2;
+        grid-columns: 1fr 8fr;
+        grid-rows: 1fr 3fr;
+}
+Label {
+        border: solid green;
+}
+
+.total {
+        border: solid green;
+}
+Label {
+column-span: 2;
+}
+Digits {
+        text-align: right;
+}
